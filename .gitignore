@@ -1,0 +1,10 @@
+#exclude all packages managed by nuget
+/*/packages/*
+
+#exclude all things vs generates
+/*/bin/*
+/*/obj/*
+*.suo
+*.csproj.use
+/packages
+/.vs
